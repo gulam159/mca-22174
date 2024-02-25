@@ -26,7 +26,7 @@ const ChapterList: React.FC<ChapterProps> = ({ items, onReorder, onEdit }) => {
   useEffect(() => {
     setIsMounted(true);
     router.refresh();
-  }, []);
+  }, [router]);
 
   useEffect(() => {
     setChapter(items);

@@ -82,14 +82,14 @@ const ChapterVideoForm: React.FC<ChapterVideoFormProps> = ({
             }}
           />
           <p className="text-xs text-muted-foreground mt-4">
-            Upload this chapter's video
+            Upload this chapter&apos;s video
           </p>
         </div>
       )}
       {intialData.videoUrl && !isEditing && (
         <div className="text-xs text-muted-foreground mt-2">
           Videos can take a few minutes to process. Refresh the page if video
-          doesn't appear.
+          doesn&apos;t appear.
         </div>
       )}
     </div>
